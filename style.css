@@ -1,0 +1,282 @@
+/*
+	Developer: Hasibul Hasan Sahato 
+	email:kajal.shanto@gmail.com
+		Aug 19, 2017
+		time:2:20 am
+*/
+
+body{
+	margin-left: 0;
+	padding: 0;  
+}
+
+a{
+	text-decoration: none;
+}
+/*For small Border*/
+ 
+
+/*Menu section Start*/
+#Slider{
+	width: 100%;
+	height: 120vh;
+	background: url(header.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.navbar-default {
+    background-color: #FFFFFF;
+    border: none !important;
+    padding: 3px 0;
+}
+.navbar-default .navbar-brand{
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 700;
+	color: #F05F40;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color: #F05F40;
+}
+.slider_text{
+	padding: 15% 0; 
+	overflow: hidden;
+}
+.slider_text span{
+	display: block;
+}
+/*
+.slider_text{ 
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}*/
+.slider_text h1{
+	color: #fff;
+	font-size: 45px;
+	font-weight: 700;
+}
+.slider_text .small_border_bottom {
+    height: 3px;
+    width: 80px;
+    background: #F05F40;
+    margin: 6px auto; 
+}
+.slider_text p{
+	color: #fff;
+	font-size: 20px;
+}
+.slider_text .btn-default {
+    color: #fff;
+    margin-top: 5%;
+    background-color: #F05F40;
+    border-color: #E24944;
+    text-transform: uppercase;
+    border-radius: 25px;
+    font-weight: 700; 
+    padding: 15px 30px;
+}
+.slider_text .btn-default:hover {
+	background: #EB3812;
+	transition: .8s;
+	-moz-transition: .8s;
+	-webkit-transition: .8s;
+	-o-transition: .8s;
+}
+
+/*Menu section End*/
+
+/*Get started section start*/
+#get_started{
+	background: #F05F40;
+	padding: 70px 0;
+	color: #fff;
+}
+.get_text h1{ 
+}
+.get_text .small_border_bottom {
+    height: 3px;
+    width: 80px;
+    background: #fff;
+    margin: 6px auto; 
+}
+.get_text p{
+	margin-top: 20px;
+	font-size: 18px;
+}
+
+.get_text .btn-default {
+    color: #000;
+    margin-top: 5%;
+    background-color: #fff;
+    border-color: #fff;
+    text-transform: uppercase;
+    border-radius: 30px;
+    font-weight: 700; 
+    padding: 15px 30px;
+}
+.get_text .btn-default:hover {
+	background: #E6E6E6;
+	transition: .8s;
+	-moz-transition: .8s;
+	-webkit-transition: .8s;
+	-o-transition: .8s;
+}
+/*Get started section end*/
+
+
+/*service section start*/
+#Service{
+	padding: 50px 0;
+}
+
+.service_header{
+	margin-bottom: 45px;
+}
+ 
+.service_header .small_border_bottom {
+    height: 3px;
+    width: 50px;
+    background: #F05F40;
+    margin: 6px auto; 
+}
+.sItems i{
+	color: #F05F40;
+}
+.sItems i:hover{
+	color: blue;
+}
+/*service section start*/
+
+/*Portfolio section start*/
+#Portfolio{}
+.porfolio_img{}
+.Pt_img{
+	position: relative;
+}
+.overlay_text{
+	color: #fff;
+	margin-top: 15%;
+}
+.overlay{
+	width: 100%;
+	height: 100%;
+	background: rgba(224,91,61,.8);
+	position: absolute;
+	display: none;
+}
+.Pt_img:hover .overlay{
+	display: block;
+	transition: 1s;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	-ms-transition: 1s;
+	-o-transition: 1s;
+}
+/*Portfolio section end*/
+
+
+/*Donload section start*/
+#download{
+	background: #222222;
+	padding: 35px 0;
+}
+.Pt_img .col-md-4{
+	padding-right: 0px;
+    padding-left: 0px; 
+}
+.dn_header h1{
+	color: #fff;
+}
+.dn_header .btn-default {
+    color: #000;
+    margin-top: 5%;
+    background-color: #fff;
+    border-color: #fff;
+    text-transform: uppercase;
+    border-radius: 30px;
+    font-weight: 700; 
+    padding: 10px 20px;
+}
+.dn_header .btn-default:hover {
+	background: #E6E6E6;
+	transition: .8s;
+	-moz-transition: .8s;
+	-webkit-transition: .8s;
+	-o-transition: .8s;
+}
+/*Donload section end*/
+
+/*Contact section start*/
+#Contact{
+	padding: 90px 0;
+}
+
+.ct_header .small_border_bottom {
+    height: 3px;
+    width: 50px;
+    background: #F05F40;
+    margin: 6px auto; 
+}
+
+.ct_header p{
+	font-size: 16px;
+	font-weight: 600;
+	margin-top: 25px;
+}
+.ct_icons{
+	margin-top: 20px;
+}
+.ct_icons span{
+	display: block;
+	color: #F05F40;
+	font-size: 16px;
+}
+.ct_icons span>a{
+	color: #F05F40;
+}
+.icons-two:hover{
+	color: blue;
+}
+/*Contact section end*/
+
+
+/*Small phones*/
+@media (max-width: 767px){
+ #Slider{
+ 	height: auto;
+ }
+ .slider_text h1{
+ 	font-size: 20px;
+ }
+ .slider_text p{
+ 	font-size: 14px;
+ }
+ .get_text h1{
+ 	font-size: 30px;
+ }
+ .dn_header h1{
+ 	font-size: 22px;
+ }
+ .icons-two{
+ 	margin-top: 10px;
+ }
+
+}
+/*Tablets*/
+@media (min-width: 768px){
+ #Slider{
+ 	height: auto;
+ }
+
+}
